@@ -1,0 +1,63 @@
+body {
+	width: 80%;
+	border: 20px solid #FFFFFF;
+	margin: 20px auto;
+	padding: 20px; /*spacing inside the body*/
+	max-width: 700px;
+	font-family: 'Open Sans', sans-serif;
+
+	background: linear-gradient(352deg, #54e4cc, #db79e1);
+	background-size: 400% 400%;
+
+	-webkit-animation: Marissa 11s ease infinite;
+	-moz-animation: Marissa 11s ease infinite;
+	animation: Marissa 11s ease infinite;
+}
+
+	@-webkit-keyframes Marissa {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+	@-moz-keyframes Marissa {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+	@keyframes Marissa { 
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+
+
+
+.date {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.quote {
+	border-left: 5px solid #FFFFFF;
+	padding-left: 5px;
+}
+
+
+h2 {
+	font-size: 2.0rem;
+	font-family: 'Covered By Your Grace', cursive;
+	color: #FFFFFF;
+	font-size: 40px;
+
+}
+
+.post {
+	margin-bottom: 20px;
+
+}
+
+
+
+
+
